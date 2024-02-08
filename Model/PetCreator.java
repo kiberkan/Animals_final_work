@@ -1,4 +1,5 @@
-public class PetCreator extends CreatorAnimals {
+package Model;
+public class PetCreator extends Creator {
 
     @Override
     protected Pet createNewPet (PetType type) {

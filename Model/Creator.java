@@ -1,6 +1,7 @@
+package Model;
 import java.time.LocalDate;
 
-public abstract class CreatorAnimals {
+public abstract class Creator {
 
     protected abstract Pet createNewPet(PetType type);
 
